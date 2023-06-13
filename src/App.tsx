@@ -61,7 +61,7 @@ function App() {
       <div className="py-8">
         <div className="container">
           <div className="flex flex-wrap gap-x-6 gap-y-16 items-end">
-            <div className="basis-full lg:basis-8/12">
+            <div className="basis-full lg:basis-8/12  min-h-[10rem] md:min-h-[16.875rem]">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
