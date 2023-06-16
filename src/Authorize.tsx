@@ -19,7 +19,7 @@ const Authorize = (props: { show: boolean }) => {
           show ? 'translate-y-0' : 'translate-y-10',
         )}
       >
-        <h1 className="text-3xl md:text-4xl font-medium">Welcome to GoshAI</h1>
+        <h1 className="text-3xl md:text-4xl font-medium">Welcome to Gosh.AI</h1>
         <div className="mt-1 text-lg text-center">Create account or login with Gosh</div>
       </div>
       <div

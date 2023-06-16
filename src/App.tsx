@@ -65,16 +65,35 @@ function App() {
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
-                    .typeString(
-                      '<span class="title-blue">GOSH AI</span> writes code in any language with any complexity',
-                    )
-                    .pauseFor(1000)
+                    .typeString('<span class="title-blue">GOSH.AI</span> ')
+                    .typeString('writes code in any language with any complexity')
+                    .pauseFor(2000)
+                    .deleteChars(47)
+                    .typeString('creates full software products from a simple prompt')
+                    .pauseFor(2000)
+                    .deleteChars(51)
+                    .typeString('generates any documentation you need')
+                    .pauseFor(2000)
+                    .deleteChars(26)
+                    .typeString('tutorials for source code')
+                    .pauseFor(2000)
+                    .deleteChars(35)
+                    .typeString('delivers software end-to-end')
+                    .pauseFor(2000)
+                    .deleteChars(28)
+                    .typeString('scales your digital product')
+                    .pauseFor(2000)
+                    .deleteChars(27)
+                    .typeString('helps you debug your code')
+                    .pauseFor(2000)
+                    .deleteAll(20)
                     .start()
                 }}
                 options={{
                   autoStart: true,
                   delay: 70,
-                  loop: false,
+                  deleteSpeed: 15,
+                  loop: true,
                   wrapperClassName:
                     'text-4xl md:text-6xl leading-tight md:leading-normal font-medium',
                   cursorClassName:
@@ -90,7 +109,7 @@ function App() {
                 onMouseEnter={() => onBackgroundToggle(true)}
                 onMouseLeave={() => onBackgroundToggle(false)}
               >
-                Try Gosh AI
+                Try Gosh.AI
               </button>
             </div>
           </div>
