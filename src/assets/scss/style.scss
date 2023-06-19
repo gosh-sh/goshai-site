@@ -64,3 +64,14 @@ body,
   background: rgb(30, 122, 236);
   background: linear-gradient(0deg, rgba(30, 122, 236, 1) 0%, rgba(19, 198, 255, 1) 100%);
 }
+
+.maintenance-wrapper {
+  background: url('/images/maintenance-bg.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 300%;
+
+  @media (min-width: 768px) {
+    background-size: 100%;
+  }
+}
